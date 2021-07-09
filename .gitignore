@@ -22,6 +22,10 @@
 # The Great Fleece downloaded assets
 Assets/The Great Fleece/
 
+# Lightmap data
+Assets/Scenes/Environment_Start/
+Assets/Scenes/Environment_Finished/
+
 # Visual Studio cache directory
 .vs/
 
