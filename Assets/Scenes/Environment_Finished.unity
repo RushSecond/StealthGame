@@ -10955,6 +10955,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 431047864}
+  - component: {fileID: 431047865}
   m_Layer: 0
   m_Name: Sleeping_Guard_Cutscene
   m_TagString: Untagged
@@ -10978,6 +10979,29 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!320 &431047865
+PlayableDirector:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 431047863}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_PlayableAsset: {fileID: 11400000, guid: 5f1c51c3724ae5f4eb2c457b3aefbeac, type: 2}
+  m_InitialState: 1
+  m_WrapMode: 2
+  m_DirectorUpdateMode: 1
+  m_InitialTime: 0
+  m_SceneBindings:
+  - key: {fileID: -9017853600602456572, guid: 5f1c51c3724ae5f4eb2c457b3aefbeac, type: 2}
+    value: {fileID: 2043896032}
+  - key: {fileID: 3654291649340786916, guid: 5f1c51c3724ae5f4eb2c457b3aefbeac, type: 2}
+    value: {fileID: 1694181351}
+  m_ExposedReferences:
+    m_References:
+    - 8f61160f1c5938b40bc3edee658cd4e7: {fileID: 1079151996}
+    - 8e7c5a4a16006674ab5a9d34c9dcafdf: {fileID: 2086945444}
 --- !u!1001 &439256549
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -28502,6 +28526,12 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1694181349}
   m_PrefabAsset: {fileID: 0}
+--- !u!95 &1694181351 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 95483830545951576, guid: 49be4103b035b448cb277ad3ac4b48f7,
+    type: 3}
+  m_PrefabInstance: {fileID: 1694181349}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1702402990
 GameObject:
   m_ObjectHideFlags: 0
@@ -38406,7 +38436,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2043896029}
-  m_LocalRotation: {x: 0.03702304, y: 0.8715386, z: -0.06928694, w: 0.48399296}
+  m_LocalRotation: {x: 0.038110025, y: 0.8971267, z: -0.07132118, w: 0.48399296}
   m_LocalPosition: {x: -4.894, y: 2.334, z: -105.746}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
